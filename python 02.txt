@@ -1,0 +1,33 @@
+Creating an Empty List:
+Python
+
+my_list = []
+Appending Elements:
+Python
+
+my_list.append(10)
+my_list.append(20)
+my_list.append(30)
+my_list.append(40)
+Inserting Value at Second Position:
+Python
+
+my_list.insert(1, 15)
+Extending the List:
+Python
+
+my_list.extend([50, 60, 70])
+Removing the Last Element:
+Python
+
+my_list.pop()
+Sorting in Ascending Order:
+Python
+
+my_list.sort()
+Finding Index of Value 30:
+Python
+
+index_30 = my_list.index(30)
+print(f"The index of 30 in my_list is: {index_30}")
+The final content of my_list after these operations will be: [10, 15, 20, 30, 50, 60]. And the index of value 30 is 3
